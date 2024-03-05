@@ -15,7 +15,7 @@ class CategoryAdmin(admin.ModelAdmin):
         PostInline,
     )
     list_display = (
-        'title',        
+        'title',
     )
 
 
